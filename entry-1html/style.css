@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap);
+
+h1{
+    color: #FFDE9D;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -150px;
+}
+
+.img1 {
+    width: 300.6px;
+    height: 239.5px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    color:#000000 ;
+  font-size: 20px;
+  font-family: "Patrick Hand SC";
+  font-style: normal;
+}
+
+.box1{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 441px;
+    height: 305px;
+    flex-shrink: 0;
+    background-color: #FFE176;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    padding: 30px;
+}
+
+body{
+    color: black;
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box2{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 441px;
+    height: 900px;
+    flex-shrink: 0;
+    background-color: #fffef9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    text-align: start;
+    padding: 10px;
+}
+
+.img2{ /*菠蘿包 text */
+    width: 322.147px;
+    height: 139.489px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h3{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: #68c376;
+    margin-bottom: -10px;
+}
+
+h4{
+    color: black;
+  font-family: "Patrick Hand SC";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700; 
+  margin-bottom: -10px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.list1{
+    color: black;
+    font-family: "Patrick Hand SC";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700; 
+    text-align: start;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.list3{
+    text-align: right;
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.credit{
+    text-align: center;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    color: #FFDE9D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* end of base styles */
+
+.container { /*large container*/
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: pace-evenly;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 25px; 
+    row-gap: 15px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    align-content: center;
+}
+
+.container3{
+    border: #000000 solid;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  align-content: last baseline;
+  margin-top: 25px;
+  text-align: left;
+}

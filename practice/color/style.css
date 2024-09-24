@@ -1,0 +1,54 @@
+
+
+#box1{
+  width: 1000px;
+  height: 1000px;
+  flex-shrink: 0;
+  background-color: orange;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+#box2{
+    width: 700px;
+    height: 700px;
+    flex-shrink: 0;
+    background-color: rgb(255, 204, 108);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center; 
+}
+
+#box3{
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    background-color: rgb(255, 229, 81);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center; 
+}
+
+#box4{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: rgb(255, 238, 0);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center; 
+}
+

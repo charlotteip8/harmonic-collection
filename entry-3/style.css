@@ -1,0 +1,175 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap);
+
+
+.logo1{
+  width: 238px;
+  height: 134px;
+  flex-shrink: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.eggwaffle{
+  color: #FFDE9D;
+  font-family: Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  -webkit-text-stroke: black 1px;
+}
+
+.img { /*illustration*/
+  width: 260px;
+  height: 320px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2 { /*chinese text*/
+  width: 454px;
+  height: 146px;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.ingredients {
+  flex-shrink: 0;
+  color: #FFDE9D;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  -webkit-text-stroke: black 1px;
+}
+
+#list1 {
+  color: black;
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700; 
+  text-align: start;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  -webkit-text-stroke: black 0px;
+  
+}
+
+#description{
+  color:black ;
+  font-size: 20px;
+  font-family: "Patrick Hand SC";
+  font-style: normal;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#box1 {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 420px;
+  height: 370px;
+  flex-shrink: 0;
+  background-color: #fffef9;
+  text-align: center;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+#box2 {
+  border: 1px solid;
+  border-radius: 25px;
+  width: 441px;
+  height: 300px;
+  flex-shrink: 0;
+  background-color: #FFDE9D;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.description{
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2{
+  text-align: center;
+}
+
+.instructions{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-stroke: black 1px;
+  color:#FF81A6
+}
+
+.list2{
+  text-align: justify;
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+
+/* end of base styles */
+
+.container { /*large container*/
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-evenly;
+  column-gap: 20px;
+}
+
+#container1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-content: space-evenly;
+
+}
+
+#container2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  align-content: space-evenly;
+}
+
+#container3{
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  align-content: last baseline;
+  text-align: left;
+  margin: 30px;
+}
