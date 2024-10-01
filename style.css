@@ -1,0 +1,90 @@
+.logo1{
+    width: 119px;
+    height: 67px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 20;
+    text-align: center;
+}
+
+p{
+    font-family: monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 2;
+    text-align: center;
+}
+
+.entry1{
+    align-content: end;
+}
+
+.img1{
+    width: 250px;
+    height: 190px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry2{
+    align-content: end;
+}
+
+.img2{
+    width: 391px;
+    height: 210px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry3{
+    align-content: end;
+}
+
+.img3{
+    width: 230px;
+    height: 290px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry4{
+    align-content: end;
+}
+
+.img4{
+    width: 327px;
+    height: 253px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*container styles*/
+
+.container{
+    display:flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+}
