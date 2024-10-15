@@ -11,131 +11,82 @@
     margin-bottom: 50px;
 }
 
-/*left section*/
+h1{
+    font-family: monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 20;
+    text-align: center;
+}
 
-.box1{
-    border: 1px solid black;
-    border-radius: 25px;
-    width:400px;
-    height:530px;
+p{
+    font-family: monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 2;
+    text-align: center;
+}
+
+.entry1{
+    align-content: end;
+}
+
+.img1{
+    width: 250px;
+    height: 190px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.ingredients{
+.entry2{
+    align-content: end;
+}
+
+.img2{
+    width: 391px;
+    height: 210px;
     flex-shrink: 0;
-    color: #FFE176;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    -webkit-text-stroke: black 1px;
-    text-align: center;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#list1{
-    font-family: monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 1.5;
+.entry3{
+    align-content: end;
 }
 
-/*middle section*/
+.img3{
+    width: 230px;
+    height: 290px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.img1{
-    width: 387px;
-    height: 303px;
+.entry4{
+    align-content: end;
+}
+
+.img4{
+    width: 327px;
+    height: 253px;
     flex-shrink: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-p{
-    font-family: "Patrick Hand SC", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-.chinese{
-    width:379px;
-    height:122px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*right section*/
-
-.box2{
-    border: 1px solid black;
-    border-radius: 25px;
-    width:400px;
-    height:530px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.instructions{
-    flex-shrink: 0;
-    color: #FDBD45;
-    font-family: Helvetica;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    -webkit-text-stroke: black 1px;
-    text-align: center;
-}
-
-#list2{
-    font-family: monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-/* base layouts */
+/*container styles*/
 
 .container{
-    /*border: solid 1px black;*/
-    display: flex;
+    display:flex;
     flex-direction: row;
-    row-gap: 50px;
-    align-content: space-evenly;
+    column-gap: 50px;
     justify-content: center;
-}
-
-.container1{
-    /*border: solid 1px black;*/
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    align-content: space-evenly;
-    justify-content: center;
-    flex: 140;
-}
-
-.container2{
-    /*border: solid 1px black;*/
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    align-content: center;
-    justify-content: center;
-    flex: 160;
-}
-
-.container3{
-    /*border: solid 1px black;*/
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    align-content: space-evenly;
-    justify-content: center;
-    flex: 140;
 }
