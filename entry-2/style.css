@@ -1,6 +1,3 @@
-
-@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap);
-
 .logo1{
   width: 119px;
   height: 67px;
@@ -12,166 +9,148 @@
   margin-bottom: 50px;
 }
 
-#ricenoodleroll{
-  color: #FFDE9D;
-  font-family: Helvetica;
-  font-size: 70px;
-  font-style: normal;
-  font-weight: 700;
-}
+/*left section*/
 
-.img {
-  width: 441px;
-  height: 259.869px;
-  flex-shrink: 0;
-  margin-top: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img2 { /*腸粉 text*/
-  width: 322.147px;
-  height: 139.489px;
-  flex-shrink: 0;
-  margin-bottom: 0px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.ingredients {
-  flex-shrink: 0;
-  color: #FFDE9D;
-  font-family: Helvetica;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-#list1 {
-  color: black;
-  font-family: "Patrick Hand SC";
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700; 
-  text-align: start;
-  margin-left: 150px;
-  margin-bottom: 40px;
-  font-weight: 400;
-  
-}
-
-#description{
-  color:#fffef9 ;
-  font-size: 20px;
-  font-family: "Patrick Hand SC";
-  font-style: normal;
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#box1 {
+.box1{
   border: 1px solid black;
   border-radius: 25px;
-  width: 554px;
-  height: 539px;
-  flex-shrink: 0;
-  background-color: #fffef9;
-  text-align: center;
-  display: block;
+  width:400px;
+  height:530px;
   margin-left: auto;
   margin-right: auto;
-  align-content: center;
-  justify-content: center;
 }
 
-#box2 {
-  border: 1px solid;
-  border-radius: 25px;
-  width: 441px;
-  height: 305px;
-  flex-shrink: 0;
-  background-color: #FF8787;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h4{
+  font-family: monospace;
   font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.description{
+.ingredients{
+  flex-shrink: 0;
+  color: #E04C4C;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-stroke: black 1px;
+  text-align: center;
+}
+
+#sauce{
+  font-family: monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#list1{
+  font-family: monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/*middle section*/
+
+.img1{
+  width: 501px;
+  height: 275px;
+  flex-shrink: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
   font-family: "Patrick Hand SC", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
-.h2{
-  text-align: center;
+.chinese{
+  width:309px;
+  height:122px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*right section*/
+
+.box2{
+  border: 1px solid black;
+  border-radius: 25px;
+  width:400px;
+  height:530px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .instructions{
-  text-align: center;
+  flex-shrink: 0;
+  color: #FFDE9D;
   font-family: Helvetica;
-  font-size: 60px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  color:#E04C4C
+  -webkit-text-stroke: black 1px;
+  text-align: center;
 }
 
-.list2{
-  text-align: justify;
-  font-family: "Patrick Hand SC", cursive;
+#list2{
+  font-family: monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
-  color: black;
-  flex-wrap: wrap;
-  margin-left: 40px;
-  margin-right: 40px;
+  font-size: 11px;
+  line-height: 1.6;
 }
 
-.credit{
-  text-align: center;
-  font-family: "Patrick Hand SC", cursive;
-  font-weight: 400;
-  color: #FFDE9D;
-  font-size: 20px;
-  font-weight: 400;
-}
+/* base layouts */
 
-
-/* end of base styles */
-
-.container { /*large container*/
-  display:flex;
+.container{
+  /*border: solid 1px black;*/
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: pace-evenly;
+  row-gap: 50px;
+  align-content: space-evenly;
+  justify-content: center;
 }
 
-#container1 {
+.container1{
+  /*border: solid 1px black;*/
   display: flex;
   flex-direction: column;
   row-gap: 50px;
   align-content: space-evenly;
   justify-content: center;
-  margin-top: 25px; 
+  flex: 140;
 }
 
-#container2 {
+.container2{
+  /*border: solid 1px black;*/
   display: flex;
   flex-direction: column;
-  row-gap: 100px;
-  align-content: last baseline;
-  margin-top: 25px;
+  row-gap: 50px;
+  align-content: center;
+  justify-content: center;
+  flex: 160;
 }
 
-#container3{
-    display: flex;
-    flex-direction: column;
-    row-gap: 100px;
-  align-content: last baseline;
-  margin-top: 25px;
-  text-align: left;
+.container3{
+  /*border: solid 1px black;*/
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-content: space-evenly;
+  justify-content: center;
+  flex: 140;
 }
