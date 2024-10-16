@@ -30,8 +30,8 @@ p{
 }
 
 .img1{
-    width: 150px;
-    height: 100px;
+    width: 189px;
+    height: 157px;
     flex-shrink: 0;
     margin-top: 30px;
     display: block;
@@ -44,8 +44,8 @@ p{
 }
 
 .img2{
-    width: 211px;
-    height: 70px;
+    width: 250px;
+    height: 135px;
     flex-shrink: 0;
     margin-top: 30px;
     display: block;
@@ -58,8 +58,8 @@ p{
 }
 
 .img3{
-    width: 90px;
-    height: 150x;
+    width: 137px;
+    height: 189x;
     flex-shrink: 0;
     margin-top: 30px;
     display: block;
