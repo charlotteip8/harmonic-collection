@@ -102,4 +102,6 @@ p{
     row-gap: 50px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    padding: 30px;
+    margin: 20px;
 }
