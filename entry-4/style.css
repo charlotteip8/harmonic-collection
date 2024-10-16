@@ -36,7 +36,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
+    padding-right: 20px;
 }
 
 /*middle section*/
@@ -93,8 +94,9 @@ p{
     font-family: monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-right: 20px;
 }
 
 /* base layouts */
@@ -106,6 +108,7 @@ p{
     row-gap: 50px;
     align-content: space-evenly;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container1{
@@ -116,6 +119,7 @@ p{
     align-content: space-evenly;
     justify-content: center;
     flex: 140;
+    order: 2;
 }
 
 .container2{
@@ -126,6 +130,7 @@ p{
     align-content: center;
     justify-content: center;
     flex: 160;
+    order: 1;
 }
 
 .container3{
@@ -136,4 +141,5 @@ p{
     align-content: space-evenly;
     justify-content: center;
     flex: 140;
+    order: 3;
 }

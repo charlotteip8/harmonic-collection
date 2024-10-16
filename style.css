@@ -80,6 +80,19 @@ p{
     margin-right: auto;
 }
 
+.entry5{
+    align-content: end; 
+}
+
+.img5{
+    width: 327px;
+    height: 253px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*container styles*/
 
 .container{
