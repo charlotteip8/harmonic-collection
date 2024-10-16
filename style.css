@@ -44,8 +44,8 @@ p{
 }
 
 .img2{
-    width: 391px;
-    height: 210px;
+    width: 341px;
+    height: 160px;
     flex-shrink: 0;
     margin-top: 30px;
     display: block;
@@ -72,8 +72,8 @@ p{
 }
 
 .img4{
-    width: 277px;
-    height: 203px;
+    width: 257px;
+    height: 183px;
     flex-shrink: 0;
     display: block;
     margin-left: auto;
