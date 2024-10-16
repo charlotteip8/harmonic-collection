@@ -85,8 +85,8 @@ p{
 }
 
 .img5{
-    width: 387px;
-    height: 303px;
+    width: 327px;
+    height: 243px;
     flex-shrink: 0;
     display: block;
     margin-left: auto;
@@ -99,6 +99,7 @@ p{
     display:flex;
     flex-direction: row;
     column-gap: 50px;
-    justify-content: center;
+    row-gap: 50px;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
