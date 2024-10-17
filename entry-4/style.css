@@ -137,3 +137,9 @@ p{
     /*border: solid 1px black;*/
     display: flex;
     flex-direction: column;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex: 140;
+    order: 3;
+}
