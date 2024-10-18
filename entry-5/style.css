@@ -140,7 +140,4 @@ p{
     flex-direction: column;
     row-gap: 50px;
     align-content: space-evenly;
-    justify-content: center;
-    flex: 140;
-    order: 3;
-}
+    justify-cont
