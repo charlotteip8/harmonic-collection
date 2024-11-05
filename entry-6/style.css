@@ -1,0 +1,145 @@
+.logo1{
+    width: 119px;
+    height: 67px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*ingredients*/
+
+.box1{
+    border: 1px solid black;
+    border-radius: 25px;
+    width:400px;
+    height:530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients{
+    flex-shrink: 0;
+    color: #F68C25;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: black 1px;
+    text-align: center;
+}
+
+#list1{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-right: 30px;
+}
+
+/*graphic*/
+
+.img1{
+    width: 387px;
+    height: 303px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: 60px;
+}
+
+p{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.chinese{
+    width:379px;
+    height:120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*instructions*/
+
+.box2{
+    border: 1px solid black;
+    border-radius: 25px;
+    width:400px;
+    height:530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instructions{
+    flex-shrink: 0;
+    color: #FFC082;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: black 1px;
+    text-align: center;
+}
+
+#list2{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-right: 20px;
+}
+
+/* base layouts */
+
+.container{
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap:wrap;
+}
+
+.container1{
+   /* border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex: 140;
+    order: 2;
+}
+
+.container2{
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    flex: 160;
+    order: 1;
+}
+
+.container3{
+   /* border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex: 140;
+    order: 3;
+}

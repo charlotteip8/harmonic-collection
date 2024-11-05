@@ -93,6 +93,19 @@ p{
     margin-right: auto;
 }
 
+.entry6{
+    align-content: end; 
+}
+
+.img6{
+    width: 176px;
+    height: 134px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*container styles*/
 
 .container{
