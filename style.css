@@ -107,6 +107,20 @@ p{
     align-items: end;
 }
 
+.entry7{
+    align-content: end; 
+}
+
+.img7{
+    width: 242px;
+    height: 126px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: end;
+}
+
 /*container styles*/
 
 .container{
