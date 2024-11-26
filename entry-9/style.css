@@ -1,0 +1,260 @@
+.logo1{
+    width: 119px;
+    height: 67px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*ingredients*/
+
+.box1{
+    border: 1px solid black;
+    border-radius: 25px;
+    width:400px;
+    height:530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients{
+    flex-shrink: 0;
+    color: #AB4040;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: black 1px;
+    text-align: center;
+}
+
+#list1{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-right: 30px;
+}
+
+/*graphic*/
+
+.img1{
+    width: 191px;
+    height: 335px;
+    flex-shrink: 0;
+    display: block;
+    align-self: center;
+}
+
+p{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.chinese{
+    width:310px;
+    height:110px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+/*instructions*/
+
+.box2{
+    border: 1px solid black;
+    border-radius: 25px;
+    width:400px;
+    height:530px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+.instructions{
+    flex-shrink: 0;
+    color: #FF8787;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: black 1px;
+    text-align: center;
+}
+
+#list2{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-right: 20px;
+    
+}
+
+/* base layouts */
+
+.container{
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: middle;
+    column-gap: 20px;
+    flex-wrap:wrap;
+}
+
+.container1{
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex: 140;
+    order: 2;
+}
+
+.container2{
+   /* border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    flex: 160;
+    order: 1;
+}
+
+.container3{
+   /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-content: space-evenly;
+    justify-content: center;
+    flex: 140;
+    order: 3;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .logo1 {
+        width: 100px;
+        height: 57px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box1, .box2 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ingredients, .instructions {
+        font-size: 30px;
+    }
+
+    #list1, #list2, #list3, h4 {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .img1 {
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .chinese {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1, .container2, .container3 {
+        flex: 1 1 100%;
+        row-gap: 30px;
+    }
+}
+
+/* Mobile Portrait (smaller devices like phones in portrait mode) */
+@media (max-width: 480px) {
+    .logo1 {
+        width: 80px;
+        height: 45px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box1 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box2 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ingredients, .instructions {
+        font-size: 25px;
+    }
+
+    #list1, #list2, #list3, h4 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .img1 {
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        align-self: center;
+    }
+
+    .chinese {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .container1, .container2, .container3 {
+        flex: 1 1 100%;
+        row-gap: 20px;
+    }
+}

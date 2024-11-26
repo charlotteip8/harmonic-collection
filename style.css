@@ -135,6 +135,20 @@ p{
     align-items: end;
 }
 
+.entry9{
+    align-content: end; 
+}
+
+.img9{
+    width: 95px;
+    height: 167px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: end;
+}
+
 /*container styles*/
 
 .container{
