@@ -1,3 +1,4 @@
+
 .logo1{
     width: 119px;
     height: 67px;
@@ -10,15 +11,14 @@
 }
 
 h1{
-    font-family: monospace;
+    font-family: "JetBrains Mono", monospace;
+    font-style: normal;;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 20;
     text-align: center;
 }
 
 p{
-    font-family: monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 12px;
     font-style: normal;
     font-weight: 2;
