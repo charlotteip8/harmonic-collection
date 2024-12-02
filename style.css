@@ -12,8 +12,9 @@
 
 h1{
     font-family: "JetBrains Mono", monospace;
-    font-style: normal;;
+    font-style: normal;
     font-size: 15px;
+    font-weight: 2;
     text-align: center;
 }
 
