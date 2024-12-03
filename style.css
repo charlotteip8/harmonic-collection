@@ -171,7 +171,7 @@ p{
     flex-direction: row;
     column-gap: 50px;
     row-gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 30px;
     margin: 20px;
