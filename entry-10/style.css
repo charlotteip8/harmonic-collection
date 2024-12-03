@@ -59,6 +59,13 @@ h4{
     align-self: center;
 }
 
+.img1 {
+    width: 339px;
+    height: 255px;
+    flex-shrink: 0;
+    display: block;
+}
+
 p{
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
