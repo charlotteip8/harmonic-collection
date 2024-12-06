@@ -14,6 +14,7 @@
     transform: scale(1.1);
 }
 
+
 /*ingredients*/
 
 .box1{
@@ -65,6 +66,10 @@ h4{
     transition: transform 0.3s ease;
 }
 
+.img1:hover {
+    transform: scale(1.1);
+}
+
 p{
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
@@ -87,6 +92,7 @@ p{
 .chinese:hover {
     transform: scale(1.1);
 }
+
 
 /*instructions*/
 
@@ -125,6 +131,7 @@ p{
     padding-right: 20px;
     
 }
+
 
 /* base layouts */
 
@@ -179,6 +186,13 @@ p{
         height: 57px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .up, .down{
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .box1, .box2 {
