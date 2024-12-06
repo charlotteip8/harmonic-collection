@@ -7,6 +7,11 @@
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+
+.logo1:hover{
+    transform: scale(1.1);
 }
 
 /*ingredients*/
@@ -75,6 +80,11 @@ p{
     margin-left: auto;
     margin-right: auto;
     align-self: center;
+    transition: transform 0.3s ease;
+}
+
+.chinese:hover {
+    transform: scale(1.1);
 }
 
 /*instructions*/
