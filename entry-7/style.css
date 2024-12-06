@@ -72,6 +72,11 @@ h4{
     flex-shrink: 0;
     display: block;
     margin-left: 60px;
+    transition: transform 0.3s ease;
+}
+
+.img1:hover {
+    transform: scale(1.1);
 }
 
 p{

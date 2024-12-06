@@ -54,6 +54,11 @@
     display: block;
     margin-left: 60px;
     align-self: center;
+    transition: transform 0.3s ease;
+}
+
+.img1:hover {
+    transform: scale(1.1);
 }
 
 p{
