@@ -69,7 +69,7 @@ h4{
 
 .img1:hover {
     transform: scale(1.1);
-  }
+}
 
 p{
     font-family: "Patrick Hand SC", cursive;
@@ -87,6 +87,11 @@ p{
     margin-left: auto;
     margin-right: auto;
     align-self: center;
+    transition: transform 0.3s ease;
+}
+
+.chinese:hover {
+    transform: scale(1.1);
 }
 
 /*instructions*/
