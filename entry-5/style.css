@@ -175,7 +175,8 @@ p{
 }
 
 .container3{
-   /* border: solid 1px black;*/
+   border: solid 1px black;
+   border-radius: 25px;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
