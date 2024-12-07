@@ -139,6 +139,32 @@ p{
     
 }
 
+
+/*navigation*/
+.up{
+    width:40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.up:hover {
+    transform: scale(1.1);
+}
+
+.down{
+    width:40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.down:hover {
+    transform: scale(1.1);
+}
+
 /* base layouts */
 
 .container{
@@ -183,6 +209,12 @@ p{
     justify-content: center;
     flex: 140;
     order: 3;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 /* Mobile Styles */
@@ -230,6 +262,9 @@ p{
     .container1, .container2, .container3 {
         flex: 1 1 100%;
         row-gap: 30px;
+    }
+    .container4{
+        display: none;
     }
 }
 
@@ -289,5 +324,8 @@ p{
     .container1, .container2, .container3 {
         flex: 1 1 100%;
         row-gap: 20px;
+    }
+    .container4{
+        display: none;
     }
 }
